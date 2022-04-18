@@ -1,0 +1,57 @@
+{
+  "buildFiles": [
+    "/Users/dx/HMS/Live2D_For_Android/app/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/App/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/Effect/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/Id/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/Math/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/Model/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/Motion/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/Physics/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/Rendering/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/Rendering/OpenGL/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/Type/CMakeLists.txt",
+    "/Users/dx/HMS/Live2D_For_Android/app/src/main/cpp/Framework/src/Utils/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/dx/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/dx/HMS/Live2D_For_Android/app/.cxx/Debug/m6o2e376/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/dx/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/dx/HMS/Live2D_For_Android/app/.cxx/Debug/m6o2e376/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "Demo::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "Demo",
+      "output": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/cxx/Debug/m6o2e376/obj/arm64-v8a/libDemo.so",
+      "runtimeFiles": []
+    },
+    "Framework::@9c55c6b88f2a474f058e": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "Framework",
+      "output": "/Users/dx/HMS/Live2D_For_Android/app/.cxx/Debug/m6o2e376/arm64-v8a/Framework/libFramework.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/dx/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/dx/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

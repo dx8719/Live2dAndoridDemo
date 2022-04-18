@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/drawable/ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/drawable_ic_home_black_24dp.xml.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/mipmap_ic_launcher.png.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/mipmap/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/drawable_side_nav_bar.xml.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/mipmap_test1.png.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/mipmap/test1.png"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/drawable/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/layout_fragment_dashboard.xml.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/mipmap_ic_launcher_round.png.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/mipmap/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/merged_res/debug/navigation_mobile_navigation.xml.flat",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/navigation/mobile_navigation.xml"
+    }
+]

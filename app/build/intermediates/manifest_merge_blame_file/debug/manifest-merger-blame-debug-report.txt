@@ -1,0 +1,99 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.live2d.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:5:5-78
+11-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+12-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:6:22-77
+13
+14    <uses-feature
+14-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:8:5-10:38
+15        android:glEsVersion="0x00020000"
+15-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:9:13-45
+16        android:required="true" />
+16-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:10:13-36
+17
+18    <application
+18-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:12:5-32:19
+19        android:allowBackup="true"
+19-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:13:13-39
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/dx/.gradle/caches/transforms-3/107b48ead489d4dd0a48badb09d9592d/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:14:13-47
+24        android:label="@string/app_name"
+24-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:15:13-45
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:16:13-58
+26        android:supportsRtl="true"
+26-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:17:13-39
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:18:13-44
+29        <activity
+29-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:19:9-28:20
+30            android:name="com.live2d.demo.MainActivity"
+30-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:20:17-45
+31            android:exported="true"
+31-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:21:17-40
+32            android:label="@string/title_activity_main"
+32-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:22:17-60
+33            android:theme="@style/AppTheme.DarkActionBar" >
+33-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:23:17-62
+34            <intent-filter>
+34-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:24:13-27:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:25:17-68
+35-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:25:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:26:17-76
+37-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:26:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:29:9-31:19
+42            android:name="com.live2d.demo.FloatingService"
+42-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:29:18-49
+43            android:exported="false" >
+43-->/Users/dx/HMS/Live2D_For_Android/app/src/main/AndroidManifest.xml:30:18-42
+44        </service>
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/dx/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/dx/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+48            android:authorities="com.live2d.demo.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/dx/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/dx/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/dx/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.0.0] /Users/dx/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/dx/.gradle/caches/transforms-3/a6574320c86c3a37e884ef017c5b1904/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dx/.gradle/caches/transforms-3/d2a3b14342a552ef8281dc10a1999877/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dx/.gradle/caches/transforms-3/d2a3b14342a552ef8281dc10a1999877/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dx/.gradle/caches/transforms-3/d2a3b14342a552ef8281dc10a1999877/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>

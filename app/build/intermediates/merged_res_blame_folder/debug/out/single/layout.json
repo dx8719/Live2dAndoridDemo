@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_dashboard.xml",
+        "source": "/Users/dx/HMS/Live2D_For_Android/app/src/main/res/layout/fragment_dashboard.xml"
+    }
+]

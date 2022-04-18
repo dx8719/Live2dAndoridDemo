@@ -1,0 +1,239 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						13
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Framework",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Framework/src",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						11,
+						12
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src"
+				},
+				{
+					"build" : "Framework/src/Effect",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src/Effect"
+				},
+				{
+					"build" : "Framework/src/Id",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src/Id"
+				},
+				{
+					"build" : "Framework/src/Math",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src/Math"
+				},
+				{
+					"build" : "Framework/src/Model",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src/Model"
+				},
+				{
+					"build" : "Framework/src/Motion",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src/Motion"
+				},
+				{
+					"build" : "Framework/src/Physics",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src/Physics"
+				},
+				{
+					"build" : "Framework/src/Rendering",
+					"childIndexes" : 
+					[
+						10
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src/Rendering"
+				},
+				{
+					"build" : "Framework/src/Rendering/OpenGL",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 9,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src/Rendering/OpenGL"
+				},
+				{
+					"build" : "Framework/src/Type",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src/Type"
+				},
+				{
+					"build" : "Framework/src/Utils",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/Framework/src/Utils"
+				},
+				{
+					"build" : "src/main/cpp/App",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/main/cpp/App"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Demo-Debug-06334a77dd66427deabf.json",
+					"name" : "Demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Framework::@9c55c6b88f2a474f058e",
+					"jsonFile" : "target-Framework-Debug-fed6a594b9b799a95d99.json",
+					"name" : "Framework",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/dx/HMS/Live2D_For_Android/app/.cxx/Debug/m6o2e376/arm64-v8a",
+		"source" : "/Users/dx/HMS/Live2D_For_Android/app"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

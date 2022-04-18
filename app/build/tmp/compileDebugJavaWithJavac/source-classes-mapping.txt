@@ -1,0 +1,31 @@
+com/live2d/demo/JniBridgeJava.java
+ com.live2d.demo.JniBridgeJava
+com/live2d/demo/databinding/FragmentDashboardBinding.java
+ com.live2d.demo.databinding.FragmentDashboardBinding
+com/live2d/demo/GLView.java
+ com.live2d.demo.GLView
+com/live2d/demo/MyApplication.java
+ com.live2d.demo.MyApplication
+com/live2d/demo/GLFragment.java
+ com.live2d.demo.GLFragment
+ com.live2d.demo.GLFragment$1
+ com.live2d.demo.GLFragment$2
+ com.live2d.demo.GLFragment$3
+com/live2d/demo/BufferUtils.java
+ com.live2d.demo.BufferUtils
+com/live2d/demo/databinding/ActivityMainBinding.java
+ com.live2d.demo.databinding.ActivityMainBinding
+com/live2d/demo/CubismParam.java
+ com.live2d.demo.CubismParam
+com/live2d/demo/BuildConfig.java
+ com.live2d.demo.BuildConfig
+com/live2d/demo/GLRenderer.java
+ com.live2d.demo.GLRenderer
+com/live2d/demo/FloatingService.java
+ com.live2d.demo.FloatingService
+ com.live2d.demo.FloatingService$1
+ com.live2d.demo.FloatingService$FloatingOnTouchListener
+ com.live2d.demo.FloatingService$MySimpleScaleOnGestureDetector
+com/live2d/demo/MainActivity.java
+ com.live2d.demo.MainActivity
+ com.live2d.demo.MainActivity$MyTouchListener

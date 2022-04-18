@@ -1,0 +1,164 @@
+{
+  "abi": "ARM64_V8A",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "/Users/dx/HMS/Live2D_For_Android/app/.cxx/Debug/m6o2e376/arm64-v8a",
+  "soFolder": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/cxx/Debug/m6o2e376/obj/arm64-v8a",
+  "soRepublishFolder": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/cmake/debug/obj/arm64-v8a",
+  "abiPlatformVersion": 24,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/cxx/Debug/m6o2e376/obj",
+    "soRepublishFolder": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/cmake/debug/obj",
+    "cxxBuildFolder": "/Users/dx/HMS/Live2D_For_Android/app/.cxx/Debug/m6o2e376",
+    "intermediatesFolder": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/cxx/Debug/m6o2e376",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "/Users/dx/HMS/Live2D_For_Android/app/.cxx",
+      "intermediatesBaseFolder": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates",
+      "intermediatesFolder": "/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/cxx",
+      "gradleModulePathName": ":Demo",
+      "moduleRootFolder": "/Users/dx/HMS/Live2D_For_Android/app",
+      "moduleBuildFile": "/Users/dx/HMS/Live2D_For_Android/app/build.gradle",
+      "makeFile": "/Users/dx/HMS/Live2D_For_Android/app/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "/Users/dx/Library/Android/sdk/ndk/23.1.7779620",
+      "ndkVersion": "23.1.7779620",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 31,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "/Users/dx/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "/Users/dx/Library/Android/sdk/cmake/3.18.1/bin/cmake",
+        "minimumCmakeVersion": "3.18.1",
+        "ninjaExe": "/Users/dx/Library/Android/sdk/cmake/3.18.1/bin/ninja"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/Users/dx/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/dx/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/dx/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/dx/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "/Users/dx/HMS/Live2D_For_Android",
+        "sdkFolder": "/Users/dx/Library/Android/sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabClassPathFileCollection": [],
+    "prefabPackageDirectoryListFileCollection": [],
+    "stlType": "c++_static",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "/Users/dx/HMS/Live2D_For_Android/app/.cxx/Debug/m6o2e376/prefab/arm64-v8a",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "m6o2e376g502v61vi2i4p6k2z4q1x2n375z6b1d2g323m6y396c153c5e1x3a",
+  "configurationArguments": [
+    "-H/Users/dx/HMS/Live2D_For_Android/app",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d24",
+    "-DANDROID_PLATFORM\u003dandroid-24",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003d/Users/dx/Library/Android/sdk/ndk/23.1.7779620",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/dx/Library/Android/sdk/ndk/23.1.7779620",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/dx/Library/Android/sdk/ndk/23.1.7779620/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/Users/dx/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/cxx/Debug/m6o2e376/obj/arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/dx/HMS/Live2D_For_Android/app/build/intermediates/cxx/Debug/m6o2e376/obj/arm64-v8a",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-B/Users/dx/HMS/Live2D_For_Android/app/.cxx/Debug/m6o2e376/arm64-v8a",
+    "-GNinja"
+  ]
+}
